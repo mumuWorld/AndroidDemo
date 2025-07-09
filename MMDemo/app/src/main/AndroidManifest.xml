@@ -13,6 +13,10 @@
         android:theme="@style/Theme.MMDemo"
         tools:targetApi="31">
         <activity
+            android:name=".`MainActivity2.kt`"
+            android:exported="false"
+            android:theme="@style/Theme.MMDemo" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
