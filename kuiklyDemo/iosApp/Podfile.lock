@@ -1,0 +1,39 @@
+PODS:
+  - LookinServer (1.2.8):
+    - LookinServer/Core (= 1.2.8)
+  - LookinServer/Core (1.2.8)
+  - OpenKuiklyIOSRender (2.1.1):
+    - OpenTDFCommon (~> 1.0.0)
+  - OpenTDFCommon (1.0.0)
+  - SDWebImage (5.21.0):
+    - SDWebImage/Core (= 5.21.0)
+  - SDWebImage/Core (5.21.0)
+  - shared (1.0)
+
+DEPENDENCIES:
+  - LookinServer
+  - OpenKuiklyIOSRender (~> 2.1.1)
+  - SDWebImage
+  - shared (from `../shared`)
+
+SPEC REPOS:
+  trunk:
+    - LookinServer
+    - OpenKuiklyIOSRender
+    - OpenTDFCommon
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  shared:
+    :path: "../shared"
+
+SPEC CHECKSUMS:
+  LookinServer: 1b2b61c6402ae29fa22182d48f5cd067b4e99e80
+  OpenKuiklyIOSRender: dba760ec89ae357cd4cc80c04c4b16624b67d8f3
+  OpenTDFCommon: f78e0063ea2f9d35807629b21901e173a6b1d93d
+  SDWebImage: f84b0feeb08d2d11e6a9b843cb06d75ebf5b8868
+  shared: 45c4d5a3fe6bf89e105d0ff0f3587f64ad21dd48
+
+PODFILE CHECKSUM: 8ca5e1276b2d26d23bfee6477dabb1fdaa7d69df
+
+COCOAPODS: 1.16.2

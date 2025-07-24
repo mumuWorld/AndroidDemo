@@ -47,9 +47,19 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.core.content.ContextCompat.startActivity
+import androidx.navigation.NavHost
+import androidx.navigation.NavHostController
 import com.example.mmdemo.list.model.Affirmation
 import com.example.mmdemo.list.model.Datasource
 import com.example.mmdemo.ui.theme.MMDemoTheme
+import androidx.navigation.compose.rememberNavController
+
+enum class CupcakeScreen() {
+    Start,
+    Flavor,
+    Pickup,
+    Summary
+}
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -64,6 +74,7 @@ class MainActivity : ComponentActivity() {
 //                    )
 //                }
 //                DiceRollerApp()
+
                 AffirmationsApp()
             }
         }
@@ -104,6 +115,7 @@ fun AffirmationList(affirmationList: List<Affirmation>, modifier: Modifier = Mod
 
 @Composable
 fun AffirmationCard(affirmation: Affirmation, modifier: Modifier = Modifier) {
+    val context = LocalContext.current
     Card(modifier = modifier) {
         Column {
             Image(
@@ -115,7 +127,10 @@ fun AffirmationCard(affirmation: Affirmation, modifier: Modifier = Modifier) {
                 contentScale = ContentScale.Crop
             )
             Button(onClick = {
-                val context = LocalContext.current
+                println("test-> 点击了")
+                val intent = Intent(context, MainActivity2::class.java)
+                context.startActivity(intent)
+//                val context = LocalContext.current
 //                val intent = Intent(context = context, )
 //                intent.putExtra("userId", 1234)
 //                intent.putExtra("userName", "木木")

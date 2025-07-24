@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MMDemo</string>
+    <string name="app_name">MMDemo应用</string>
     <string name="from_me">from me</string>
     <string name="hello_your_name">Hello your name: %1$s!</string>
     <string name="roll">Roll</string>
@@ -18,7 +18,23 @@
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
     <string name="next">Next</string>
+
     <string name="previous">Previous</string>
+    <string name="juice_type">Type of juice</string>
+    <string name="delete">Delete</string>
+    <string name="juice_name">Juice Name</string>
+    <string name="juice_description">Description</string>
+    <string name="juice_rating">Rating</string>
+    <string name="name">Name</string>
+    <string name="save">Save</string>
+    <string name="juice_color">Color</string>
+
+    <string name="red">Red</string>
+    <string name="blue">Blue</string>
+    <string name="green">Green</string>
+    <string name="cyan">Cyan</string>
+    <string name="yellow">Yellow</string>
+    <string name="magenta">Magenta</string>
 
     <string name="lorem_ipsum">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
@@ -56,4 +72,6 @@
         libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
